@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NoteVC.swift
 //  TouchyApp
 //
 //  Created by Denis Rakitin on 2019-09-30.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NoteVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
