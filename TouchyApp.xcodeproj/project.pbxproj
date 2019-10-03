@@ -13,6 +13,14 @@
 		B575B51F2342282D0038DA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B575B51D2342282D0038DA14 /* Main.storyboard */; };
 		B575B5212342282D0038DA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B575B5202342282D0038DA14 /* Assets.xcassets */; };
 		B575B5242342282D0038DA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B575B5222342282D0038DA14 /* LaunchScreen.storyboard */; };
+		B575B531234233170038DA14 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575B530234233170038DA14 /* NoteDetailVC.swift */; };
+		B575B533234234EF0038DA14 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575B532234234EF0038DA14 /* Note.swift */; };
+		B575B5352342354A0038DA14 /* LockStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575B5342342354A0038DA14 /* LockStatus.swift */; };
+		B575B537234235FE0038DA14 /* NoteObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575B536234235FE0038DA14 /* NoteObjects.swift */; };
+		B575B5392342AA620038DA14 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575B5382342AA620038DA14 /* NoteCell.swift */; };
+		B575B53B2342B6DF0038DA14 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575B53A2342B6DF0038DA14 /* Helpers.swift */; };
+		B575B53E2343D4F30038DA14 /* NotesDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B575B53C2343D4F30038DA14 /* NotesDataModel.xcdatamodeld */; };
+		B575B5402343E4340038DA14 /* CreateNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B575B53F2343E4340038DA14 /* CreateNoteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		B575B5202342282D0038DA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B575B5232342282D0038DA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B575B5252342282D0038DA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B575B530234233170038DA14 /* NoteDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
+		B575B532234234EF0038DA14 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		B575B5342342354A0038DA14 /* LockStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockStatus.swift; sourceTree = "<group>"; };
+		B575B536234235FE0038DA14 /* NoteObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteObjects.swift; sourceTree = "<group>"; };
+		B575B5382342AA620038DA14 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		B575B53A2342B6DF0038DA14 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B575B53D2343D4F30038DA14 /* NotesDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B575B53F2343E4340038DA14 /* CreateNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +83,7 @@
 				B575B5202342282D0038DA14 /* Assets.xcassets */,
 				B575B5222342282D0038DA14 /* LaunchScreen.storyboard */,
 				B575B5252342282D0038DA14 /* Info.plist */,
+				B575B53C2343D4F30038DA14 /* NotesDataModel.xcdatamodeld */,
 			);
 			path = TouchyApp;
 			sourceTree = "<group>";
@@ -75,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				B575B51B2342282D0038DA14 /* NoteVC.swift */,
+				B575B530234233170038DA14 /* NoteDetailVC.swift */,
+				B575B53F2343E4340038DA14 /* CreateNoteVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -82,6 +101,7 @@
 		B575B52C234228420038DA14 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B575B5382342AA620038DA14 /* NoteCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +109,7 @@
 		B575B52D234228550038DA14 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B575B532234234EF0038DA14 /* Note.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,6 +117,7 @@
 		B575B52E234228620038DA14 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				B575B5342342354A0038DA14 /* LockStatus.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -103,6 +125,8 @@
 		B575B52F2342286D0038DA14 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B575B536234235FE0038DA14 /* NoteObjects.swift */,
+				B575B53A2342B6DF0038DA14 /* Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -178,9 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B575B533234234EF0038DA14 /* Note.swift in Sources */,
 				B575B51C2342282D0038DA14 /* NoteVC.swift in Sources */,
 				B575B5182342282D0038DA14 /* AppDelegate.swift in Sources */,
 				B575B51A2342282D0038DA14 /* SceneDelegate.swift in Sources */,
+				B575B53B2342B6DF0038DA14 /* Helpers.swift in Sources */,
+				B575B53E2343D4F30038DA14 /* NotesDataModel.xcdatamodeld in Sources */,
+				B575B537234235FE0038DA14 /* NoteObjects.swift in Sources */,
+				B575B5352342354A0038DA14 /* LockStatus.swift in Sources */,
+				B575B531234233170038DA14 /* NoteDetailVC.swift in Sources */,
+				B575B5402343E4340038DA14 /* CreateNoteVC.swift in Sources */,
+				B575B5392342AA620038DA14 /* NoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +410,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B575B53C2343D4F30038DA14 /* NotesDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B575B53D2343D4F30038DA14 /* NotesDataModel.xcdatamodel */,
+			);
+			currentVersion = B575B53D2343D4F30038DA14 /* NotesDataModel.xcdatamodel */;
+			path = NotesDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B575B50C2342282D0038DA14 /* Project object */;
 }
